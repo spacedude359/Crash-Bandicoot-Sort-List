@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf-8" />
+    <style>
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "Leff Cenn Rigg"
+    ". . ."
+    ". . ."; 
+}
+.Leff { grid-area: Leff; }
+.Rigg { grid-area: Rigg; }
+.Cenn { grid-area: Cenn; }
+    </style>
+</head>
+
+
+
+<h2>Crash 1 sort listing polygons information</h2>
+<input type="file" id="file" />
+<script src="T4.js"></script> 
+
+
+<div class="container">
+    <div id="Leff" class="Leff"></div>
+    <div id="Rigg" class="Rigg"></div>
+    <div id="Cenn" class="Cenn"></div>
+  </div>
