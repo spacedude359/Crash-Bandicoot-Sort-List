@@ -1,4 +1,6 @@
- 
+// It's not finished. 
+// These results maybe false informations
+
 var eid_charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"    
 var Swapping_Nodes = ["Swapping Node Index","Format","index of Polygon ID A", "index of Polygon ID B relative to A + 1", "index of Polygon ID C relative to A","index of Polygon ID D relative to C + 17"]
 
